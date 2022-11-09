@@ -1,14 +1,20 @@
+.colorebackground{
+    background-color: rgb(145, 21, 145);
+}
+
 .flexcont{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 .cella{
     background-color: green;
     aspect-ratio: 1 / 1;
+    color: gold;
     border: 1px solid black;
-    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,3 +23,4 @@
 .azzurro{
     background-color: blue;
 }
+
