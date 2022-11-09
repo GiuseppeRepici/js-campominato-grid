@@ -7,9 +7,11 @@
 .cella{
     background-color: green;
     aspect-ratio: 1 / 1;
-    text-align: center;
     border: 1px solid black;
     font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .azzurro{
