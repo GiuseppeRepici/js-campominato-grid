@@ -1,14 +1,14 @@
 .flexcont{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .cella{
     background-color: green;
     aspect-ratio: 1 / 1;
     text-align: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border: 1px solid black;
     font-size: 30px;
 }
 
