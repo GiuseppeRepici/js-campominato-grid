@@ -3,6 +3,8 @@ let gridContainer = document.getElementById("grid-cont");
 
 
 btn.addEventListener("click", function() {
+    gridContainer.innerHTML= "";
+    
     let difficolta = document.getElementById("selectdiff");
     console.log(difficolta.value);
     let numCelleRiga = Math.sqrt(`${difficolta.value}`);
