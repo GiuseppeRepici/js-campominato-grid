@@ -4,7 +4,14 @@
 }
 
 .cella{
-    padding: 20px;
     background-color: green;
     aspect-ratio: 1 / 1;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 30px;
+}
+
+.azzurro{
+    background-color: blue;
 }
