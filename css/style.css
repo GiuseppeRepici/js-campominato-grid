@@ -1,0 +1,10 @@
+.flexcont{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cella{
+    padding: 20px;
+    background-color: green;
+    aspect-ratio: 1 / 1;
+}
